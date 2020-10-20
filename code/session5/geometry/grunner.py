@@ -1,6 +1,5 @@
-from point1 import Point
+from point import Point
 
-p = Point()
+p = Point(5, 3)
 
-print(p.getX())
-
+print(p)
